@@ -4,6 +4,7 @@ import NavBar from "./Navbar";
 import "./login.css";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
+import Swal from "sweetalert2";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -18,10 +19,20 @@ const Login = () => {
     );
 
     if (user) {
-      alert("Login successful!");
+      Swal.fire({
+        icon: "success",
+        title: "SUCCESS",
+        text: "LOGIN SUCCESSFULLY",
+        footer: '<a href="#">YOUR DATA IS CORRECT</a>'
+      });
       navigate("/quiz");
     } else {
-      alert("Invalid email or password!");
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "FILL WRITE DATA!",
+        footer: '<a href="#">YOUR FILL DATA IS WRONG</a>'
+      });
     }
   };
 
