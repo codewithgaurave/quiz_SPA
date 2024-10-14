@@ -1,7 +1,9 @@
 import React from "react";
 import "./aboutteam.css";
+import Teamdetails from "./Teamdetails";
 const AboutTeamSec = () => {
   return (
+    <div>
     <div>
       <div className="bImage">
         <div className="bell">
@@ -17,7 +19,7 @@ const AboutTeamSec = () => {
             <h2>Gaurav Gupta</h2>
             <p className="para">(Developer and Management)</p>
             <p className="about">
-              Gaurav is responsible for both the development and the management
+              Er. Gaurav Gupta is responsible for both the development and the management
               of the project. With strong technical skills and leadership, he
               oversees the entire project execution.
             </p>
@@ -27,7 +29,7 @@ const AboutTeamSec = () => {
             <h2>Krishna Kumar</h2>
             <p className="para">(CEO and Management)</p>
             <p className="about">
-              Krishna is the CEO and takes care of the overall management of the
+              Er. Krishna Kumar is the CEO and takes care of the overall management of the
               team. His expertise in business strategy helps drive the company
               forward.
             </p>
@@ -37,7 +39,7 @@ const AboutTeamSec = () => {
             <h2 >Prabhakar Rajput</h2>
             <p className="para">(Logic Developer and Director)</p>
             <p className="about">
-              Prabhakar is the logic developer and director of the project. He
+             Er. Prabhakar Rajput is the logic developer and director of the project. He
               ensures that the algorithms and system logic are effectively
               implemented.
             </p>
@@ -45,6 +47,10 @@ const AboutTeamSec = () => {
         </div>
       </div>
     </div>
+        {/*team deatails social media section start */}
+        <Teamdetails/>
+        {/* team details social media section end */}
+        </div>
   );
 };
 

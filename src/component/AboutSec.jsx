@@ -32,17 +32,17 @@ const AboutSec = () => {
         </div>
         <div className='aboutImg'>
             <div className='pers'>
-                <img src='image.png'/><p className='ab'>85%</p>
+                <img src='image.png' alt=''/><p className='ab'>85%</p>
                 <p style={{textAlign:'center',color:'white'}}>85% Saticfied students</p>
             </div>
             <div className='book'>
-                <img src='https://gaviaspreview.com/wp/wellearn/wp-content/uploads/2024/06/image-23.jpg'></img>
+                <img src='https://gaviaspreview.com/wp/wellearn/wp-content/uploads/2024/06/image-23.jpg' alt=''></img>
             </div>
             <div className='comp'>
-                <img src='https://gaviaspreview.com/wp/wellearn/wp-content/uploads/2024/06/image-22.jpg'></img>
+                <img src='https://gaviaspreview.com/wp/wellearn/wp-content/uploads/2024/06/image-22.jpg' alt=''></img>
             </div>
             <div className='exp'>
-                <img src='https://i.pinimg.com/originals/48/1f/da/481fda4e5af4c3bc4c115cbe0a4d026c.png'/>
+                <img src='https://i.pinimg.com/originals/48/1f/da/481fda4e5af4c3bc4c115cbe0a4d026c.png' alt=''/>
                 <p style={{textAlign:'center',color:'white'}}>Experiance Designer</p>
             </div>
         </div>
