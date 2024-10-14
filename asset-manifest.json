@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/quiz_SPA/static/css/main.940428ea.css",
+    "main.js": "/quiz_SPA/static/js/main.7167f776.js",
+    "static/js/453.63c4db86.chunk.js": "/quiz_SPA/static/js/453.63c4db86.chunk.js",
+    "static/media/TeamError.jpg": "/quiz_SPA/static/media/TeamError.47bada673df8cffd49ef.jpg",
+    "index.html": "/quiz_SPA/index.html",
+    "main.940428ea.css.map": "/quiz_SPA/static/css/main.940428ea.css.map",
+    "main.7167f776.js.map": "/quiz_SPA/static/js/main.7167f776.js.map",
+    "453.63c4db86.chunk.js.map": "/quiz_SPA/static/js/453.63c4db86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.940428ea.css",
+    "static/js/main.7167f776.js"
+  ]
+}
